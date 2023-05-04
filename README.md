@@ -11,3 +11,20 @@ Execute `npm install` in the root of the project. This command will install all 
 
 To build the resources, execute `gulp` command which will build the final files located in the `wwwroot` folder of every theme.
 
+Here are some best practices to use when designing the site using Figma. 
+
+### Defined the following color names
+- Primary
+- Secondary
+- Info
+- Dark
+- Light
+- Danger (red)
+- Success (green)
+- Warning (yellow/orange)
+- Black
+- White
+
+### Use Layout Grid to align content
+- Make the layout "Columns" type using 12 columns
+- Center the grid using 86 and 24 for the gutter
