@@ -3,30 +3,23 @@
 @import '../../../node_modules/bootstrap/scss/_variables';
 
 .navbar-main {
-    @include gradient-x($start-color: $primary, $end-color: $secondary, $start-percent: 0%, $end-percent: 100%);
+    @include gradient-directional($start-color: $primary, $end-color: $secondary, $deg: 99.61deg);
 }
 
 .navbar-brand-image {
-	max-height: 3rem;
+    max-height: 3rem;
 }
 
 @include media-breakpoint-up(sm) {
 
-	.navbar-brand-image {
-		max-height: 3.5rem;
-	}
+    .navbar-brand-image {
+        max-height: 3.5rem;
+    }
 }
 
 @include media-breakpoint-up(md) {
 
-	.navbar-brand-image {
-		max-height: 4rem;
-	}
-}
-
-@include media-breakpoint-up(xxl) {
-
-	.navbar-brand-image {
-		max-height: 4rem;
-	}
+    .navbar-brand-image {
+        max-height: 4rem;
+    }
 }

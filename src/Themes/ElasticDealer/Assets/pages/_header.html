@@ -1,16 +1,15 @@
-
-<nav class="navbar navbar-expand-md py-1 py-md-3">
+<nav class="navbar navbar-expand-md py-1 py-md-3" style="z-index: 1">
    <div class="container d-flex justify-content-between">
       <a class="navbar-brand text-white" href="~/">
-           <img src="images/elastic-dealer-logo-white.png" alt="company logo" class="navbar-brand-image" />
+         <img src="images/elastic-dealer-logo-white.png" alt="company logo" class="navbar-brand-image" />
       </a>
 
       <div>
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+          <button type="button" class="navbar-toggler border-light rounded-1" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar">
-             <ul class="navbar-nav">
+             <ul class="navbar-nav me-auto mb-3">
                 <li class="nav-item">
                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
@@ -20,7 +19,7 @@
                 <li class="nav-item dropdown">
                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Products
                    </a>
-                   <ul class="dropdown-menu">
+                   <ul class="dropdown-menu bg-primary" data-bs-theme="dark">
                       <li>
                          <a class="dropdown-item" href="/deal-builder">Deal Builder</a>
                       </li>
@@ -35,22 +34,11 @@
                       </li>
                    </ul>
                 </li>
-
-                <li class="nav-item dropdown">
-                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Company
-                   </a>
-                   <ul class="dropdown-menu">
-                      <li>
-                         <a class="dropdown-item" href="/about">About</a>
-                      </li>
-                      <li>
-                         <a class="dropdown-item" href="/contact">Contact</a>
-                      </li>
-                   </ul>
+                <li class="nav-item">
+             			<a class="btn btn-info" href="/request-demo">Request a Demo</a>
                 </li>
              </ul>
-             <a class="btn btn-info ms-4" href="/request-demo">Request a Free Demo</a>
-      </div>
-  </div>
+	      </div>
+	  </div>
    </div>
 </nav>
