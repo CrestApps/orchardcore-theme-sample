@@ -1,4 +1,4 @@
 node_modules
 **/wwwroot/*.html
-**/wwwroot/script/**
+**/wwwroot/scripts/**
 **/wwwroot/styles/**

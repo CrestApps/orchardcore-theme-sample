@@ -11,9 +11,14 @@ Execute `npm install` in the root of the project. This command will install all 
 
 To build the resources, execute `gulp` command which will build the final files located in the `wwwroot` folder of every theme.
 
+To watch any file changes in your project, execute `gulp watch`. Now, anytime you modify your assets, the compiler will automatically run and compile the changed files.
+
+To clean up the project, you may run `npm cleanup all`. This will clean all `node_modules` from all the themes and the solutions.
+
+## Designing using Figma
 Here are some best practices to use when designing the site using Figma. 
 
-### Defined the following color names
+### Define the following color names
 - Primary
 - Secondary
 - Info
