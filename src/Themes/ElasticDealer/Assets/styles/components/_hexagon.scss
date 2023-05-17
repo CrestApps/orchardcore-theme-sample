@@ -1,4 +1,4 @@
-@import "../../../node_modules/bootstrap/scss/mixins/_gradients";
+@import '../../../node_modules/bootstrap/scss/mixins/_gradients';
 @import '../../../node_modules/bootstrap/scss/mixins/_breakpoints';
 @import '../../../node_modules/bootstrap/scss/_variables';
 
@@ -25,10 +25,12 @@
     width: 5rem !important;
     height: 5.5rem !important;
   }
+  
   .hexagon.feature-node-small {
     width: 45px !important;
     height: 55px !important;
   }
+
 }
 
 @include media-breakpoint-up(sm) {
@@ -37,10 +39,12 @@
     width: 5rem !important;
     height: 5.5rem !important;
   }
+
   .hexagon.feature-node-small {
     width: 3rem !important;
     height: 3.5rem !important;
   }
+
 }
 
 @include media-breakpoint-up(md) {
@@ -49,10 +53,12 @@
     width: 6rem !important;
     height: 7rem !important;
   }
+
   .hexagon.feature-node-small {
     width: 3.5rem !important;
     height: 4rem !important;
   }
+
 }
 
 @include media-breakpoint-up(lg) {

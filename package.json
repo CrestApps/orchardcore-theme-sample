@@ -5,7 +5,8 @@
     "rebuild": "gulp rebuild",
     "watch": "gulp watch",
     "install": "node .scripts/install.js",
-    "update": "node .scripts/update.js"
+    "update": "node .scripts/update.js",
+    "cleanup": "node .scripts/cleanup.js"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
