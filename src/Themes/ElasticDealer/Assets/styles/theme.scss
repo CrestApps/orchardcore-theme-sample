@@ -101,7 +101,6 @@ $grid-breakpoints: (
 @import "components/_home.scss";
 
 // Here you can import any custom component as needed.
-
 .text-bg,
 .text-bg-white {
     color: $body-color;
@@ -137,7 +136,7 @@ $grid-breakpoints: (
     color: $white;
 }
 
-.text-bg-primary, .text-bg-primary a,
+.text-bg-primary, .text-bg-primary a
 {
     color: $white !important;
 }
