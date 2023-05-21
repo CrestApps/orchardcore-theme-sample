@@ -76,5 +76,25 @@
     ],
     "inputs": "Assets/Pages/advantage.html",
     "output": "wwwroot/advantage.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/_head.html",
+      "Assets/pages/_foot.html",
+      "Assets/pages/_header.html",
+      "Assets/pages/_footer.html"
+    ],
+    "inputs": "Assets/Pages/contact.html",
+    "output": "wwwroot/contact.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/_head.html",
+      "Assets/pages/_foot.html",
+      "Assets/pages/_header.html",
+      "Assets/pages/_footer.html"
+    ],
+    "inputs": "Assets/Pages/support.html",
+    "output": "wwwroot/support.html"
   }
 ]

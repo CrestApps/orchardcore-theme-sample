@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      @@include('./_head.html')
+
+      <title>Site Name</title>
+   </head>
+   <body dir="ltr">
+      <header class="shadow-xl text-bg-primary navbar-main">
+         @@include('./_header.html')
+      </header>
+
+      <main>
+
+         <div class="container mb-3 mt-5">
+            <nav aria-label="breadcrumb">
+               <ol class="breadcrumb mb-0">
+                 <li class="breadcrumb-item"><a href="#">Home</a></li>
+                 <li class="breadcrumb-item active" aria-current="page">Support</li>
+               </ol>
+             </nav>
+         </div>
+
+         <div class="container-fluid d-flex justify-content-center">
+            <h1 class="text-center mb-5 col-12 col-md-8 col-lg-6 col-xxl-5">Having technical issue or looking for ways to improve your process? Our team would love to help!</h1>
+         </div>
+
+         <div class="container-fluid bg-light">
+            <div class="container pt-5">
+
+               <div class="row">
+                  <div class="col-12 col-md-5">
+                     <section class="mb-3">
+                        <p class="fs-5">Please fill out the form and we will be in touch shortly. If you rather not to wait, you may <a href="/contact.html">contact us</a> via phone.</p>
+                     </section>
+
+                  </div>
+                  <div class="col-12 col-md-7">
+                     <form>
+                        <div class="text-bg-primary rounded mb-5 px-3 px-xl-5 py-5">
+                           <div class="mb-3">
+                              <label class="visually-hidden">Name</label>
+                              <div class="input-group input-group-lg">
+                                 <span class="input-group-text" id="name-icon"><span class="icon-Vector11"></span></span>
+                                 <input type="text" name="Name" class="form-control border-start-0" placeholder="Name" aria-label="Name" aria-describedby="name-icon" />
+                              </div>
+                           </div>
+                           <div class="mb-3">
+                              <label class="visually-hidden">Phone Number</label>
+                              <div class="input-group input-group-lg">
+                                 <span class="input-group-text" id="phone-number-icon"><span class="icon-Vector12"></span></span>
+                                 <input type="tel" name="PhoneNumber" class="form-control border-start-0" placeholder="Phone Number" aria-label="Phone Number" aria-describedby="phone-number-icon" />
+                              </div>
+                           </div>
+                           <div class="mb-3">
+                              <label class="visually-hidden">Email Address</label>
+                              <div class="input-group input-group-lg">
+                                 <span class="input-group-text" id="email-icon"><span class="icon-Vector13"></span></span>
+                                 <input type="email" name="EmailAddress" class="form-control border-start-0" placeholder="Email address" aria-label="Email Address" aria-describedby="email-icon" />
+                              </div>
+                           </div>
+                           <div class="mb-3">
+                              <label class="visually-hidden">Website</label>
+                              <div class="input-group input-group-lg">
+                                 <span class="input-group-text" id="link-icon">
+                                    <i class="fa-solid fa-link"></i></span>
+                                 <input type="email" name="Website" class="form-control border-start-0" placeholder="Your website address https://" aria-label="Website" aria-describedby="link-icon" />
+                              </div>
+                           </div>
+                           <div class="mb-3">
+                              <label class="visually-hidden">Message</label>
+                              <div class="input-group input-group-lg">
+                                 <span class="input-group-text pt-3 align-items-start" id="message-icon"><span class="icon-Vector17"></span></span>
+                                 <textarea type="text" name="Message" rows="4" class="form-control border-start-0" placeholder="Message" aria-label="Message" aria-describedby="message-icon"></textarea>
+                              </div>
+                           </div>
+                           <p class="text-center">
+                              By submitting the form, I agree to the <a href="#url" class="link-light text-decoration-underline">Privacy Policy.</a>
+                           </p>
+                           <div class="text-end">
+                              <button type="submit" value="Submit" class="btn btn-secondary btn-lg">
+                                 <div class="d-flex justify-content-between align-items-center">
+                                    <div class="me-5">Send</div>
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                 </div>
+                              </button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         @@include('./_footer.html')
+
+      </main>     
+
+      @@include('./_foot.html')
+
+   </body>
+</html>
