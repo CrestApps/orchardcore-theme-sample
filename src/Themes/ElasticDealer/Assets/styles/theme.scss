@@ -72,9 +72,6 @@ $input-group-addon-bg:          $white;
 // Links
 $link-hover-decoration:         none;
 
-// Navbar
-$navbar-nav-link-padding-x:     2rem;
-
 $grid-breakpoints: (
   xs: 0,
   sm: 576px,
@@ -121,7 +118,7 @@ $grid-breakpoints: (
 .bg-danger, .btn-danger,
 .bg-success, .btn-success,
 .bg-warning, .btn-warning,
-.bg-dark, .btn-dark,
+.bg-dark, .btn-dark
 {
     color: $white;
 }
