@@ -83,6 +83,11 @@ $grid-breakpoints: (
   xxxxl: 1800px
 );
 
+// Dropdowns
+$dropdown-bg:                   $primary;
+$dropdown-border-color:         $secondary;
+$dropdown-link-hover-bg:        $secondary;
+
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import "components/_utilities.scss";
 @import "components/_flow.scss";
