@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      @@include('./_head.html')
+
+      <title>Site Name</title>
+   </head>
+   <body dir="ltr">
+
+      @@include('./_header.html')
+
+      <main>
+
+        <div class="bannerSec images/"> 
+          <div class="bnrimg">
+            <img src="images/inrbnrimage.jpg" alt="Banner Image" />
+          </div>
+            <div class="inrbnrtxt bnerCon">
+              <div class="container">
+                <h1 class="display-1 lh-xs text-uppercase fw-bolded">Contact Us</h1>
+              </div>
+            </div>
+        </div>
+        <div class="brdcrmbwrap">
+          <div class="container">
+            <ul class="pl-0 list-unstyled">
+                <li class="fs-6"><a class="text-decoration-none" href="./index.html">Home</a></li>
+                <li class="brdcrmb_last fs-6 fw-bolder">Contact Us</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="contactSec">
+          <div class="container">
+            <div class="text-center contactTopWrap mx-auto mb-5">
+              <h2 class="fw-normal display-6 text-uppercase defultHdn mb-3">Get In <em class="f-style-normal color-theme-yellow">Touch</em></h2>
+              <p class="fs-6 fw-normal lh-md mb-md-0">Nulla interdum, ligula eu ultrices euismod, nibh ante porttitor ipsum, non tristique felis eros eget diam. Morbi fermentum massa sed ipsum vulputate, luctus venenatis dolor pellentesque. Aenean gravida augue at enim bibendum eleifend. </p>
+            </div>
+            <div class="contactFormWrap">
+              <form>
+                <div class="row">
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-4 position-relative contactInput">
+                      <i><img src="images/iconinputuser.png" alt="Icon"></i>
+                      <input name="fullname" type="text" placeholder="Full Name" class="form-control" id="inputFullname">
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+                    <div class="mb-4 position-relative contactInput">
+                      <i><img src="images/iconinputcall.png" alt="Icon"></i>
+                      <input name="phone" type="tel" placeholder="Phone" class="form-control" id="inputPhone">
+                    </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="mb-4 position-relative contactInput">
+                      <i><img src="images/iconinputemail.png" alt="Icon"></i>
+                      <input name="email" type="email" placeholder="E-Mail" class="form-control" id="inputEmail">
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="mb-4 position-relative contactInput contactTextarea">
+                      <i><img src="images/iconinputmessage.png" alt="Icon"></i>
+                      <textarea name="message" placeholder="Message" class="form-control" rows="4" cols="50" id="inputTextarea"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-sm-12">
+                    <div class="formSubmitWrap">
+                      <div class="checkboxInputWrap">
+                        <input type="checkbox" class="form-check-input" id="formcheck">
+                        <label class="form-check-label fs-6 fw-normal lh-md" for="formcheck">Maecenas enim nisi, luctus vel lorem id, semper volutpat felis. Mauris non nisl sed est vestibulum accumsan. Phasellus accumsan magna lectus, id dignissim ipsum porttitor eu.</label>
+                      </div>
+                      <div class="submitBtnwrap">
+                        <button type="submit" class="btn btn-primary">Send <img src="images/frmsbmticon.png" alt="icon"></button>  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </main>
+
+      @@include('./_footer.html')
+
+      @@include('./_foot.html')
+
+   </body>
+</html>
