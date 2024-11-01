@@ -1,16 +1,16 @@
-@use 'sass:math';
+/* Include main */
+@import "main/colors";
+@import "main/fonts";
+@import "main/icons";
+@import "main/utilities";
+@import "main/header";
+@import "main/custom";
+@import "main/breadcrumbs";
 
-@import "components/_fonts.scss";
+/* Include modules */
+@import "modules/pager";
+@import "modules/taxonomy";
+@import "modules/widgets";
 
-/* Here define bootstrap variables */
-
-@import "../../node_modules/bootstrap/scss/bootstrap";
-@import "components/_utilities.scss";
-@import "components/_flow.scss";
-@import "components/_messages.scss";
-@import "components/_widgets.scss";
-@import "components/_pager.scss";
-@import "components/_taxonomy.scss";
-@import "components/_custom.scss";
-
-// Here you can import any custom component as needed.
+/* Include pages */
+@import "pages/home";

@@ -1,0 +1,40 @@
+.brdcrmbwrap ul {
+   display: flex;
+   align-items: center;
+   padding-top: 30px;
+   padding-bottom: 15px;
+   border-bottom: 1px solid var(--bs-light-border);
+}
+
+.brdcrmbwrap ul li {
+   margin-right: 40px;
+   position: relative;
+}
+
+.brdcrmbwrap ul li::after {
+   content: '';
+   position: absolute;
+   right: -25px;
+   top: 8px;
+   background-image: url(./../images/brdcrmbarrow.png);
+   width: 15px;
+   height: 8px;
+   background-size: 15px 8px;
+}
+
+.brdcrmbwrap ul li.brdcrmb_last {
+   margin-right: 0;
+   color: var(--bs-link-color);
+}
+
+.brdcrmbwrap ul li.brdcrmb_last::after {
+   display: none;
+}
+
+.brdcrmbwrap ul li a {
+   color: var(--bs-primary);
+}
+
+.brdcrmbwrap ul li a:hover {
+   color: var(--bs-link-color);
+}

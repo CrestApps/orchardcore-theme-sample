@@ -1,34 +1,10 @@
-:root {
-   --bs-body-bg: #e6e6e6;
-   --bs-link-color: #EAA52C;
-   --bs-black-color: #000;
-   --bs-green: #41B670;
-   --bs-primary: #1E1E1E;
-   --bs-secondary: #fff;
-   --bs-red: #FF2D20;
-   --bs-darkmid: #101017;
-   --bs-shadow-color: #333;
-   --bs-icon-bg-color: #686868;
-   --bs-light-grey: #E7E7E7;
-   --bs-border-color: #D4D4D4;
-   --bs-light-gradient: #04B0A5;
-   --bs-light-border: #c7c7c7;
-   --bs-icon-bg: #e3ffee;
-   --bs-icon-bg2: #ffe8e7;
-   --bs-color-rgba: rgba(26, 26, 36, 0);
-   --bs-color-rgba-black: rgba(255,255,255,0.075);
-   --bs-color-border2: rgba(43, 40, 109, 0.21);
-}
 
 .color-theme-yellow {
    color: var(--bs-link-color);
 }
 
 body {
-   padding: 0px;
-   margin: 0px;
    font-family: 'Inter', sans-serif;
-   color: var(--bs-body-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -53,273 +29,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .fw-bolded {
    font-weight: 800;
-}
-/* inter-100 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 100;
-     src: url('../fonts/inter-v18-latin-100.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-200 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 200;
-     src: url('../fonts/inter-v18-latin-200.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-300 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 300;
-     src: url('../fonts/inter-v18-latin-300.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-regular - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 400;
-     src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-500 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 500;
-     src: url('../fonts/inter-v18-latin-500.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-600 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 600;
-     src: url('../fonts/inter-v18-latin-600.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-700 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 700;
-     src: url('../fonts/inter-v18-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-800 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 800;
-     src: url('../fonts/inter-v18-latin-800.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* inter-900 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Inter';
-     font-style: normal;
-     font-weight: 900;
-     src: url('../fonts/inter-v18-latin-900.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-100 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 100;
-     src: url('../fonts/exo-v21-latin-100.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-200 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 200;
-     src: url('../fonts/exo-v21-latin-200.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-300 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 300;
-     src: url('../fonts/exo-v21-latin-300.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-regular - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 400;
-     src: url('../fonts/exo-v21-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-500 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 500;
-     src: url('../fonts/exo-v21-latin-500.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-600 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 600;
-     src: url('../fonts/exo-v21-latin-600.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-700 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 700;
-     src: url('../fonts/exo-v21-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-800 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 800;
-     src: url('../fonts/exo-v21-latin-800.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-/* exo-900 - latin */
-@font-face {
-   font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-     font-family: 'Exo';
-     font-style: normal;
-     font-weight: 900;
-     src: url('../fonts/exo-v21-latin-900.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */;
-}
-
-@font-face {
-   font-family: 'icomoon';
-     src: url('../fonts/icomoon.eot?vhtea');
-     src: url('../fonts/icomoon.eot?vhtea#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?vhtea') format('truetype'), url('../fonts/icomoon.woff?vhtea') format('woff'), url('../fonts/icomoon.svg?vhtea#icomoon') format('svg');
-     font-weight: normal;
-     font-style: normal;
-     font-display: block;
-}
-
-[class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-   font-family: 'icomoon' !important;
-   speak: never;
-   font-style: normal;
-   font-weight: normal;
-   font-variant: normal;
-   text-transform: none;
-   line-height: 1;
-    /* Better Font Rendering =========== */
-   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-Vector:before {
-   content: "\e902";
-}
-
-.icon-Arrow-3:before {
-   content: "\e903";
-}
-
-.icon-Vector1:before {
-   content: "\e901";
-}
-
-.icon-Vector-9:before {
-   content: "\e900";
-}
-
-.icon-instagram1:before {
-   content: "\e90a";
-}
-
-.icon-instagram:before {
-   content: "\e907";
-}
-
-.icon-linkedin:before {
-   content: "\e906";
-}
-
-.icon-twitter:before {
-   content: "\e90b";
-}
-
-.icon-facebook-logo:before {
-   content: "\e91b";
-}
-
-.icon-youtube-logo:before {
-   content: "\e915";
-}
-
-.icon-phone-call:before {
-   content: "\e918";
-}
-
-.icon-email:before {
-   content: "\e919";
-}
-
-.icon-pinterest:before {
-   content: "\e934";
-}
-
-.icon-whatsapp:before {
-   content: "\ea93";
-}
-
-.icon-youtube:before {
-   content: "\ea9d";
-}
-
-.icon-pinterest1:before {
-   content: "\ead1";
 }
 
 .headersec.fixed_header, .navbar-brand {
@@ -789,14 +498,11 @@ h1, h2, h3, h4, h5, h6 {
    z-index: 10;
 }
 
-.bnerCon h1 {
-   color: var(--bs-secondary);
-   font-weight: 800;
-}
-
+/*
 .bnerCon p {
    color: var(--bs-secondary);
 }
+*/
 
 .bnerCon .defultBtn:hover {
    background: var(--bs-secondary);
@@ -1018,15 +724,6 @@ ul.slimmenu li {
    max-width: 800px;
 }
 
-.cus_navmenu {
-   justify-content: space-between !important;
-   width: 100% !important;
-}
-
-.cus_navmenu .navbar-collapse {
-   flex-grow: inherit !important;
-}
-
 .bannerSec.inrbnrsec::before {
    display: none;
 }
@@ -1051,46 +748,6 @@ ul.slimmenu li {
    bottom: -15px;
 }
 
-.brdcrmbwrap ul {
-   display: flex;
-   align-items: center;
-   padding-top: 30px;
-   padding-bottom: 15px;
-   border-bottom: 1px solid var(--bs-light-border);
-}
-
-.brdcrmbwrap ul li {
-   margin-right: 40px;
-   position: relative;
-}
-
-.brdcrmbwrap ul li::after {
-   content: '';
-   position: absolute;
-   right: -25px;
-   top: 8px;
-   background-image: url(./../images/brdcrmbarrow.png);
-   width: 15px;
-   height: 8px;
-   background-size: 15px 8px;
-}
-
-.brdcrmbwrap ul li.brdcrmb_last {
-   margin-right: 0;
-   color: var(--bs-link-color);
-}
-
-.brdcrmbwrap ul li.brdcrmb_last::after {
-   display: none;
-}
-
-.brdcrmbwrap ul li a {
-   color: var(--bs-primary);
-}
-
-.brdcrmbwrap ul li a:hover {
-   color: var(--bs-link-color);
-}
 
 .aboutTopSec {
    padding: 60px 0 90px;
@@ -2216,52 +1873,6 @@ ul.slimmenu li {
       max-width: 100%;
    }
 
-   .cus_navmenu {
-      position: relative;
-   }
-
-   .cus_navmenu .navbar-toggler {
-      position: absolute;
-      right: 3px;
-      border: 0 solid #fff;
-   }
-
-   .cus_navmenu .navbar-toggler-icon {
-      background-image: url(../images/menu-icon.png) !important;
-   }
-
-   .cus_navmenu .navbar-toggler-icon {
-      width: 40px;
-      height: 40px;
-   }
-
-   .cus_navmenu .navbar-collapse {
-      width: 100%;
-      position: absolute;
-      top: 100%;
-      left: 0;
-   }
-
-   .cus_navmenu ul.slimmenu li {
-      position: relative;
-      float: none;
-      display: block;
-      border-bottom: 1px solid;
-      border-color: var(--bs-color-rgba-black);
-   }
-
-   .cus_navmenu ul.slimmenu li:last-child {
-      border-bottom: 0px solid;
-   }
-
-   .cus_navmenu ul.slimmenu {
-      transition: height 2s ease;
-   }
-
-   .cus_navmenu .navbar-toggler:focus {
-      box-shadow: 0 0 0 0 !important;
-   }
-
    .inrbnrsec .bnrimg img {
       height: 150px;
    }
@@ -2372,6 +1983,7 @@ ul.slimmenu li {
       height: 40px;
       font-size: 14px;
       line-height: 20px;
+      border-radius: 5px;
    }
 
    .serviceBxs {
@@ -2741,7 +2353,7 @@ ul.slimmenu li {
    .headersec .defultBtn {
       margin-right: 55px;
       padding: 0 10px;
-      border-radius: 0;
+      border-radius: 5px;
       font-size: 13px;
       height: 30px;
    }

@@ -1,3 +1,9 @@
+@use 'sass:math';
+@import '../_variables';
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../../node_modules/bootstrap/scss/mixins/_grid";
+@import "../../../node_modules/bootstrap/scss/mixins/_container";
+
 .widget-container {
     @include make-container;
     padding-left: 0 !important;
@@ -28,7 +34,6 @@
     @include make-col-ready;
     @include make-col(12);
 }
-
 
 @each $wsize in (25, 33, 50, 66, 75) {
     .widget-size-#{$wsize} {

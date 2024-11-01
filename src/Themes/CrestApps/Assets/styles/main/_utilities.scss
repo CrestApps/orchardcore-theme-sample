@@ -1,0 +1,7 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.shadow-xl {
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2) !important;
+}
