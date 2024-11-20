@@ -189,14 +189,40 @@
 
 @media only screen and (max-width: 1399.98px) {
    .toolsimg {
-      min-height: 425px;
+      /*min-height: 425px;*/
    }
 }
 
+
 .toolslftCon {
-   min-height: 230px;
-   padding: 20px 25px 20px;
+   min-height: 250px;
+   padding: 20px;
    width: 100%;
    background: #ffffff;
    border-radius: 25px 25px 0 0;
+}
+
+
+.toolsRtCon {
+   margin-top: 30px;
+}
+
+@include media-breakpoint-up(md) { 
+   .toolsRtCon {
+      margin-top: 100px;
+   }
+}
+
+@include media-breakpoint-up(xxl) { 
+   .toolsRtCon {
+      margin-top: 180px;
+   }
+}
+
+.toolsRtCon p {
+   color: var(--bs-primary);
+}
+
+.toolsRtCon .defultHdn em {
+   color: var(--bs-link-color);
 }
