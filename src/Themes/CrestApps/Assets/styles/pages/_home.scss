@@ -2,6 +2,7 @@
 @import "../../../node_modules/bootstrap/scss/_variables";
 @import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
 
+/* Start: Intor Section */
 .intro {
     background-image: url("../images/bnaer_image.jpg");
     background-size: cover; 
@@ -113,4 +114,89 @@
    .into-footer, .into-footer::before {
       height: 100px;
    }
+}
+/* End: Intor Section */
+
+
+/* Start: Tools Section */
+
+@include media-breakpoint-up(md) { 
+  
+   .tools-container {
+      marging-top: -20px;
+   }
+
+}
+
+@include media-breakpoint-up(lg) { 
+  
+   .tools-container {
+      marging-top: -25px;
+   }
+
+}
+
+@include media-breakpoint-up(xl) { 
+  
+   .tools-container {
+      marging-top: -35px;
+   }
+
+}
+
+@include media-breakpoint-up(xxl) { 
+  
+   .tools-container {
+      marging-top: -45px;
+   }
+
+}
+/* End: Tools Section */
+
+
+
+
+
+
+
+.toolsimg {
+   min-height: 398px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.toolsimg::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(../images/colorShpe1.png) no-repeat 0 0;
+   background-size: 100% 100% !important;
+}
+
+.toolsimg img {
+   position: relative;
+}
+
+.colorTwo .toolsimg::before {
+   background: url('../images/colorShpe2.png') no-repeat 0 0;
+}
+
+@media only screen and (max-width: 1399.98px) {
+   .toolsimg {
+      min-height: 425px;
+   }
+}
+
+.toolslftCon {
+   min-height: 230px;
+   padding: 20px 25px 20px;
+   width: 100%;
+   background: #ffffff;
+   border-radius: 25px 25px 0 0;
 }

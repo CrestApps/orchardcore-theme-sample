@@ -241,36 +241,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .toolsGrid {
-   margin-right: 75px;
+   padding-right: 75px;
 }
 
-.toolslftCon p {
-   color: var(--bs-primary);
-}
-
-.toolslftCon h3 {
-   color: var(--bs-primary);
-}
-
-.toolsimg {
-   min-height: 357px;
-   width: 100%;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   position: relative;
-}
-
-.toolslftCon {
-   min-height: 230px;
-   padding: 20px 25px;
-   width: 100%;
-}
 
 .toolsBxs {
    padding: 10px;
    z-index: 9;
-   max-width: 415px;
+   /*max-width: 415px;*/
 }
 
 .toolsBxs::before {
@@ -283,25 +261,6 @@ h1, h2, h3, h4, h5, h6 {
    z-index: -1;
    background: url(../images/toolShpe.png) no-repeat 0 0;
    background-size: 100% 100%;
-}
-
-.toolsimg::before {
-   position: absolute;
-   content: "";
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: url(../images/colorShpe1.png) no-repeat 0 0;
-   background-size: 100% 100% !important;
-}
-
-.toolsimg img {
-   position: relative;
-}
-
-.colorTwo .toolsimg::before {
-   background: url(../images/colorShpe2.png) no-repeat 0 0;
 }
 
 .colorTwo.toolsBxs {
@@ -721,7 +680,7 @@ ul.slimmenu li {
 }
 
 .serviceShdow .toolsGrid {
-   max-width: 800px;
+   /* max-width: 800px; */
 }
 
 .bannerSec.inrbnrsec::before {
@@ -960,7 +919,7 @@ ul.slimmenu li {
    background-color: #ffffff;
    padding: 25px 20px 10px 20px;
    border-radius: 20px 20px 0 0;
-   min-height: 290px;
+   min-height: 300px;
 }
 
 .contactSec {
@@ -1310,24 +1269,11 @@ ul.slimmenu li {
    }
 
    .toolsGrid {
-      margin-right: 35px;
-   }
-
-   .toolslftCon h3 {
-      margin: 0 0 8px;
+      padding-right: 35px;
    }
 
    .toolsBxs {
       max-width: 305px;
-   }
-
-   .toolslftCon {
-      padding: 10px;
-      min-height: 215px;
-   }
-
-   .toolsimg {
-      min-height: 265px;
    }
 
    .colorTwo.toolsBxs {
@@ -1446,7 +1392,7 @@ ul.slimmenu li {
    }
 
    .abtmiddleSec .abtItemContWrap {
-      min-height: 318px;
+      min-height: 326px;
    }
 
    .prodctMddlesec .imgwrap img {
@@ -1551,7 +1497,7 @@ ul.slimmenu li {
    }
 
    .toolsGrid {
-      margin: 0 0 25px;
+      padding: 0 0 25px;
    }
 
    .toolsBxs {
@@ -2007,10 +1953,6 @@ ul.slimmenu li {
 
    .toolsBxs {
       max-width: 100%;
-   }
-
-   .toolslftCon {
-      min-height: auto;
    }
 
    .bannerSec.mainBannerSec {

@@ -94,7 +94,7 @@ gulp.task('help', function () {
 
 gulp.task('build', gulp.series(['build-assets']));
 gulp.task('rebuild', gulp.series(['rebuild-assets']));
-gulp.task('default', gulp.series(['build']));
+gulp.task('default', gulp.series(['rebuild-assets']));
 
 /*
 ** ASSET GROUPS
