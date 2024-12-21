@@ -1,0 +1,17 @@
+/* Include main */
+@import "main/colors";
+@import "main/fonts";
+@import "main/icons";
+@import "main/utilities";
+@import "main/header";
+@import "main/custom";
+@import "main/breadcrumbs";
+@import "main/layout";
+
+/* Include modules */
+@import "modules/pager";
+@import "modules/taxonomy";
+@import "modules/widgets";
+
+/* Include pages */
+@import "pages/home";

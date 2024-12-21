@@ -1,0 +1,228 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+/* Start: Intor Section */
+.intro {
+    background-image: url("../images/bnaer_image.jpg");
+    background-size: cover; 
+    background-position: center;  
+    background-repeat: no-repeat; 
+    position: relative;    
+    color: #fff;
+}
+
+.intro .container {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3rem;
+}
+
+.intro .intro-image-container {
+   min-width: 30vw; 
+   max-width: 55vw;
+}
+
+@include media-breakpoint-up(lg) { 
+    .intro .container {
+       position: relative;
+       z-index: 1;
+       padding-bottom: 0 !important;
+   }
+
+   .intro .intro-image-container > img {
+      padding-top: 7rem !important;
+   }
+}
+
+.intro::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.into-footer {
+    margin: 0 auto;
+   position: absolute;
+   width: 100%;
+   bottom: 0;
+   z-index: 1;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.into-footer, .into-footer::before {
+   display: none;
+}
+
+.into-footer::before {
+   position: absolute;
+   content: "";
+   bottom: 0;
+   left: -1px;
+   background: url('../images/into-footer.png') no-repeat 0 0;
+   background-size: 100% 100%;
+   width: 600px;
+   height: 70px;
+}
+
+
+@include media-breakpoint-up(md) { 
+   .into-footer, .into-footer::before {
+      display: block;
+   }
+
+   .into-footer::before {
+      width: 550px;
+      height: 60px;
+   }
+}
+
+@include media-breakpoint-up(lg) { 
+  
+   .into-footer::before {
+      width: 650px;
+   }
+
+   .into-footer, .into-footer::before {
+      height: 70px;
+   }
+}
+ 
+@include media-breakpoint-up(xl) { 
+  
+   .into-footer::before {
+      width: 750px;
+   }
+
+   .into-footer, .into-footer::before {
+      height: 80px;
+   }
+}
+
+@include media-breakpoint-up(xxl) { 
+  
+   .into-footer::before {
+      width: 900px;
+   }
+
+   .into-footer, .into-footer::before {
+      height: 100px;
+   }
+}
+/* End: Intor Section */
+
+
+/* Start: Tools Section */
+
+@include media-breakpoint-up(md) { 
+  
+   .tools-container {
+      marging-top: -20px;
+   }
+
+}
+
+@include media-breakpoint-up(lg) { 
+  
+   .tools-container {
+      marging-top: -25px;
+   }
+
+}
+
+@include media-breakpoint-up(xl) { 
+  
+   .tools-container {
+      marging-top: -35px;
+   }
+
+}
+
+@include media-breakpoint-up(xxl) { 
+  
+   .tools-container {
+      marging-top: -45px;
+   }
+
+}
+/* End: Tools Section */
+
+
+
+
+
+
+
+.toolsimg {
+   min-height: 398px;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.toolsimg::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: url(../images/colorShpe1.png) no-repeat 0 0;
+   background-size: 100% 100% !important;
+}
+
+.toolsimg img {
+   position: relative;
+}
+
+.colorTwo .toolsimg::before {
+   background: url('../images/colorShpe2.png') no-repeat 0 0;
+}
+
+@media only screen and (max-width: 1399.98px) {
+   .toolsimg {
+      /*min-height: 425px;*/
+   }
+}
+
+
+.toolslftCon {
+   min-height: 250px;
+   padding: 20px;
+   width: 100%;
+   background: #ffffff;
+   border-radius: 25px 25px 0 0;
+}
+
+
+.toolsRtCon {
+   margin-top: 30px;
+}
+
+@include media-breakpoint-up(md) { 
+   .toolsRtCon {
+      margin-top: 100px;
+   }
+}
+
+@include media-breakpoint-up(xxl) { 
+   .toolsRtCon {
+      margin-top: 180px;
+   }
+}
+
+.toolsRtCon p {
+   color: var(--bs-primary);
+}
+
+.toolsRtCon .defultHdn em {
+   color: var(--bs-link-color);
+}

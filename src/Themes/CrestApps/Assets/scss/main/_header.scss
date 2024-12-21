@@ -1,0 +1,40 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.site-header {
+	width: 100%;
+	z-index: 10;
+	background-color: #09080b !important;
+	padding-top: 1rem !important;
+  	padding-bottom: 1rem !important;
+}
+
+.site-header:not(.fixed-top) {
+	position: relative;
+}
+
+
+@include media-breakpoint-up(lg) { 
+	.site-header:not(.fixed-top) { 
+		position: absolute;
+		background-color: transparent !important; 
+	}
+}
+
+@include media-breakpoint-up(xl) { 
+	.site-header:not(.fixed-top) { 
+		position: absolute;
+		background-color: transparent !important; 
+		padding-top: 1.5rem !important;
+  		padding-bottom: 1.5rem !important;
+	}
+}
+
+
+@include media-breakpoint-up(xxl) { 
+	.site-header:not(.fixed-top) { 
+		padding-top: 3rem !important;
+    	padding-bottom: 3rem !important;
+	}
+}

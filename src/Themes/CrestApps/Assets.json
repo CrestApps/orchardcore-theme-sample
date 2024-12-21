@@ -1,0 +1,52 @@
+[
+  {
+    "inputs": [
+      "Assets/scripts/site.js"
+    ],
+    "output": "wwwroot/scripts/site.js"
+  },
+  {
+    "watch": [
+      "Assets/scss/**/*.scss"
+    ],
+    "inputs": [
+      "Assets/scss/theme.scss"
+    ],
+    "output": "wwwroot/styles/theme.css"
+  },
+  {
+    "watch": [
+      "Assets/pages/**/*.html"
+    ],
+    "inputs": "Assets/Pages/index.html",
+    "output": "wwwroot/index.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/**/*.html"
+    ],
+    "inputs": "Assets/Pages/about.html",
+    "output": "wwwroot/about.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/**/*.html"
+    ],
+    "inputs": "Assets/Pages/blog-details.html",
+    "output": "wwwroot/blog-details.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/**/*.html"
+    ],
+    "inputs": "Assets/Pages/contact-us.html",
+    "output": "wwwroot/contact-us.html"
+  },
+  {
+    "watch": [
+      "Assets/pages/**/*.html"
+    ],
+    "inputs": "Assets/Pages/products.html",
+    "output": "wwwroot/products.html"
+  }
+]

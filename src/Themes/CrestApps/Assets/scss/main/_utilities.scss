@@ -1,0 +1,122 @@
+@import "../../../node_modules/bootstrap/scss/_functions";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+.shadow-xl {
+    box-shadow: 0 1.0rem 2rem rgba(255, 165, 0, 0.1) !important;
+}
+
+.serviceBxs {
+   width: 100%;
+   min-height: 350px;
+   padding: 80px 40px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   position: relative;
+   z-index: 9;
+   transition: all 0.3s ease-in-out;
+}
+
+.serviceBxs p {
+   color: var(--bs-primary);
+   transition: all 0.3s ease-in-out;
+}
+
+.serviceBxs h3 {
+   color: var(--bs-primary);
+   transition: all 0.3s ease-in-out;
+}
+
+.serviceBxs h3 a {
+   color: var(--bs-primary);
+}
+
+.serviceBxs i {
+   display: flex;
+   width: 125px;
+   height: 125px;
+   background: var(--bs-icon-bg-color);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 100%;
+   margin: 0 0 30px;
+   transition: all 0.3s ease-in-out;
+}
+
+.serviceBxs::before {
+   position: absolute;
+   content: "";
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   transition: all 0.3s ease-in-out;
+   background: url(../images/serviceShpe1.png) no-repeat 0 0;
+   background-size: 100% 100% !important;
+   z-index: -1;
+}
+
+.serviceBxs:hover {
+   transform: translateY(-50px);
+}
+
+.serviceBxs:hover::before {
+   background: url(../images/serviceShpe2.png) no-repeat 0 0;
+}
+
+.serviceBxs:hover p {
+   color: var(--bs-secondary);
+}
+
+.serviceBxs:hover h3, .serviceBxs:hover h3 a {
+   color: var(--bs-secondary);
+}
+
+.serviceBxs:hover i {
+   background: var(--bs-secondary);
+}
+
+.serviceBxs:hover i img {
+   filter: brightness(0) saturate(100%) invert(0%) sepia(8%) saturate(46%) hue-rotate(82deg) brightness(100%) contrast(100%);
+}
+
+@include media-breakpoint-down(xxl) { 
+
+   .serviceBxs i {
+      width: 110px;
+      height: 110px;
+   }
+
+}
+
+@include media-breakpoint-down(xl) { 
+   
+   .serviceBxs i {
+      width: 95px;
+      height: 95px;
+      margin: 0 0 15px;
+   }
+
+   .serviceBxs:hover {
+      transform: translateY(-20px);
+   }
+}
+
+@include media-breakpoint-down(md) { 
+
+   .serviceBxs:hover {
+      transform: translateY(0px);
+      background: var(--bs-icon-bg-color);
+   }
+}
+
+@include media-breakpoint-up(xl) { 
+
+   .serviceBxs {
+      padding: 50px 20px;
+   }
+
+}

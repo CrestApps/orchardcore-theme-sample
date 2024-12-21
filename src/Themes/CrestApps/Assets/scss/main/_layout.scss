@@ -1,0 +1,19 @@
+.bannerSec {
+   display: none;
+}
+
+.bannerSec.inrbnrsec::before {
+   display: none;
+}
+
+@include media-breakpoint-up(lg) { 
+   .bannerSec {
+      position: relative;
+   	  width: 100%;
+      display: block;
+   }
+
+   .bannerSec::before {
+      content: none;
+   }
+}
