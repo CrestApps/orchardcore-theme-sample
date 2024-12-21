@@ -317,11 +317,6 @@ h1, h2, h3, h4, h5, h6 {
    top: 3px;
 }
 
-.bannerSec {
-   position: relative;
-   width: 100%;
-}
-
 .bnerShpe {
    max-width: 1980px;
    margin: 0 auto;
@@ -586,10 +581,6 @@ ul.slimmenu li {
 
 .serviceShdow .toolsGrid {
    /* max-width: 800px; */
-}
-
-.bannerSec.inrbnrsec::before {
-   display: none;
 }
 
 .inrbnrsec .bnrimg img {
@@ -1587,16 +1578,8 @@ ul.slimmenu li {
       border-color: var(--bs-color-rgba-black);
    }
 
-   .bannerSec {
-      margin: 64px 0 0;
-   }
-
    .bnerShpe {
       display: none;
-   }
-
-   .bannerSec::before {
-      content: none;
    }
 
    .bnerCon {

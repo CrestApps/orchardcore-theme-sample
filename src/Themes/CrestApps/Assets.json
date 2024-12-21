@@ -7,10 +7,10 @@
   },
   {
     "watch": [
-      "Assets/styles/**/*.scss"
+      "Assets/scss/**/*.scss"
     ],
     "inputs": [
-      "Assets/styles/theme.scss"
+      "Assets/scss/theme.scss"
     ],
     "output": "wwwroot/styles/theme.css"
   },

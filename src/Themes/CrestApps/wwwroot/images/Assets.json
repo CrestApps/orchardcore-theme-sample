@@ -1,0 +1,21 @@
+[
+  {
+    "generateSourceMaps": false,
+    "watch": [
+      "Assets/scss/**/*.scss"
+    ],
+    "inputs": [
+      "Assets/scss/theme.scss"
+    ],
+    "output": "wwwroot/styles/theme.css"
+  },
+  {
+    "watch": [
+      "Assets/scripts/*.js"
+    ],
+    "inputs": [
+      "Assets/scripts/*.js"
+    ],
+    "output": "wwwroot/scripts/theme.js"
+  }
+]
